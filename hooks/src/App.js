@@ -1,6 +1,7 @@
 import './App.css';
 import State from './State';
 import Effect from './Effect';
+import Context from './Context';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <hr />
       <Effect />
       <hr />
+      <Context />
     </div>
   );
 }
